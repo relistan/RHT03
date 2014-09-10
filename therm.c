@@ -1,5 +1,6 @@
 /*
- * RHT03 Sensor driver for AVR Author: Karl Matthias
+ * RHT03 Sensor driver for AVR 
+ * Author: Karl Matthias
  *
  * Supports the RHT03 temperature/humidity sensor
  *

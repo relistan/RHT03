@@ -143,7 +143,7 @@ void setup_avr(void) {
 	CLKPR = 0;             // Set to 8Mhz (no divider)
 
 	// Set port directions to output
-    DDRB |= (1 << LED);
+	DDRB |= (1 << LED);
 
 #if DEBUG
 	initUSART();

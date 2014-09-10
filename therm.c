@@ -11,6 +11,8 @@
  * The current settings assume an 8Mhz clock. You cannot run this at 1Mhz due to
  * the sampling rate being too short. You can run it at 4Mhz with the prescaler
  * change and by setting LONG_PULSE_LENGTH = 14.
+ * 
+ * DATASHEET: http://dlnmh9ip6v2uc.cloudfront.net/datasheets/Sensors/Weather/RHT03.pdf
  */
 
 #define F_CPU 8000000UL
